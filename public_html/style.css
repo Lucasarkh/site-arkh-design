@@ -1,0 +1,80 @@
+
+/* CSS INDEX HEADER*/
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.cabecalho {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(170, 44, 255);
+}
+
+.gg-menu {
+    margin: 20px;
+    
+}
+
+
+.cabecalho__navegacao {
+    width: 100vw;
+    display: none;
+
+}
+
+.cabecalho__navegacao a {
+    margin: 20px 0 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.cabecalho h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 70px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#linha {
+    margin: 1em auto;
+    border: none;
+    background-color: red;
+    height: 2px;
+    width: 30%;
+
+}
+
+/* CSS INDEX MAIN*/
+
+.main__frase {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.box_slide {
+    display: flex;
+    justify-items: space-between;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.box_slide img {
+    border: 2px solid gray;
+    box-shadow: 5px 5px 10px;  
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+
