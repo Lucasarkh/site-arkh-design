@@ -14,7 +14,7 @@ header {
     left: 0;
 }
 
-.cabecalho {
+.container {
     width: 100vw;
     display: flex;
     align-items: center;
@@ -25,13 +25,48 @@ header {
     background: linear-gradient(90deg, #6E008C 0%, #A988FF 100%);
 }
 
-.gg-menu {
-    margin: 20px;
-    color: pink;
-    
+.container__logo {
+    display: flex;
+    align-items: center;
 }
 
-.cabecalho h1 {
+#menu {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    top: 67px;
+    right: 0;
+    left: 0;
+    background: rgb(81, 0, 128);
+    height: 0px;
+    transition: 1s;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+#menu li {
+    margin: 20px;
+}
+
+#menu li a {
+
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    overflow-y: auto;
+}
+
+
+#nav.active #menu {
+    height: 14vh;
+    visibility: visible;
+
+}
+
+.container h1 {
     font-size: 20px;
     font-weight: bold;
     color: rgb(255, 205, 243);
@@ -90,29 +125,7 @@ main {
 }
 
 
-@media (max-width:330px) {
-
-    .cabecalho h1 {
-        display: none;
-    }
 
 
 
 
-
-    /* MAIN INDEX */
-
-    .box_slide {
-        display: flex;
-        justify-items: space-between;
-        flex-wrap: wrap;
-        width: 100vw;
-    }
-
-    .box_slide img {
-        width: 200px;
-        height: 200px;
-    }
-
-
-}
