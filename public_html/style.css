@@ -4,6 +4,9 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    height: 100%;
+
+    
 }
 
 header {
@@ -28,6 +31,10 @@ header {
 .container__logo {
     display: flex;
     align-items: center;
+}
+
+#img-menu {
+    width: 30px;
 }
 
 #menu {
@@ -90,9 +97,10 @@ header {
 
 /* CSS INDEX MAIN*/
 
-main {
+.main_index {
     background: url(background_main.jpg) center/cover;
-    padding-top: 65px;
+    margin-top: 65px;
+
 }
 
 .main_first {
@@ -112,6 +120,7 @@ main {
     justify-items: space-between;
     flex-wrap: wrap;
     width: 100vw;
+    height: 100vh;
 
 }
 
@@ -125,7 +134,15 @@ main {
 }
 
 
+/* CSS PAGINA HISTORIA MAIN*/
 
+#texto_section1 {
+    font-weight: 500;
+    font-size: 30px;
+    padding: 1rem;
+}
 
-
-
+.main_historia {
+    background: url(background_main.jpg) center/cover;
+    
+}
