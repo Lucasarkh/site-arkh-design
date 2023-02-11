@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-    <link href='https://css.gg/menu.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Nunito:wght@200&display=swap"
+    rel="stylesheet"><link href='https://css.gg/menu.css' rel='stylesheet'>
+
+    
     <title>Arkh  |  Digital</title>
 
 
@@ -17,11 +20,12 @@
 
 <body>
     <header>
-        <div class="container"> 
-                        
+        <div class="container">                         
             <div class="container__logo">   
-                <img src="logo_arkh.png" alt="Logo Arkh" class="logo" > 
-                <h1>Arkh Digital</h1>  
+                <a href="index.html">
+                    <img src="logo_arkh.png" alt="Logo Arkh" class="logo" > 
+                    <h1>Arkh<br>Digital</h1>  
+                </a>
             </div>
             
             <div class="navegacao">
@@ -35,10 +39,16 @@
                 </nav>
             </div>
 
+            <div class="social_header">
+                <a href="#"><img src="logo_instagram.png" alt="logo do instagram"></a>
+                <a href="#"><img src="logo_facebook.png" alt="logo do facebook"></a>
+                <a href="#"><img src="logo_linkedin.png" alt="logo do linkedin"></a>
+            </div>
+
         </div> 
 
     </header>
-    <main class="main_index">
+    <main>
         <div class="main_first">
             <section>
                     
@@ -52,29 +62,42 @@
 
             <section>
                 <div class="box_slide">
-                    <img src="logo_house_burger.jpg">
-                    <img src="carrossel_2.jpeg">
-                    <img src="carrossel_3.jpg">
+                    <img src="img_show_1.jpg">
+                    <img src="img_show_2.png">
+                    <img src="img_show_3.jpg">
                 </div>
-
-
-
-
-
             </section>
+
+            <section>
+                <p class="main__frase">Qual é o limite da criatividade?</p>
+            </section>
+
+            <hr id="linha"> 
+
         </div>
 
     
     </main>
     
     <footer>
-        <p>oi</p>
-
-
-
-
+        <h3 class="main__frase">Descubra mais em:</h3>
+        <section class="container_footer">
+            <div class="social">
+                <a href="#"><img src="logo_instagram.png" alt="logo do instagram"></a>
+                <a href="#"><img src="logo_facebook.png" alt="logo do facebook"></a>
+                <a href="#"><img src="logo_linkedin.png" alt="logo do linkedin"></a>     
+            </div>
+        </section>
+        <p>&copy;Arkh Desing 2023 All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
+
+<div class="video-background">
+    <video autoplay loop muted>
+        <source src="background_main.mp4" type="video/mp4">
+        </video>
+</div>
+
 </body>
 </html>
