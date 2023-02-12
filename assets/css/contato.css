@@ -57,7 +57,7 @@ header {
     box-sizing: border-box;
     padding: 0 10px;
     border-radius: 15px 15px;
-    transition: 1s;
+    transition: 0.5;
 }
 
 #menu li a {
@@ -310,9 +310,15 @@ footer p {
         left: 0;
         background: rgb(81, 0, 128);
         height: 0px;
-        transition: 1s;
+        transition: 0.3s;
         visibility: hidden;
         overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: 10vh;
+        visibility: visible;
+
     }
 
     #menu li {
@@ -320,23 +326,19 @@ footer p {
     }
 
     #menu li a {
-
+        font-size: 20px;
+        font-weight: 300;
         text-align: center;
         text-decoration: none;
         color: rgb(255, 255, 255);
-        font-weight: bold;
         overflow-y: auto;
     }
+    
 
     #btn-menu {
         display: block;
     }
 
-    #nav.active #menu {
-        height: 14vh;
-        visibility: visible;
-
-    }
 
     .container h1 {
         font-size: 20px;

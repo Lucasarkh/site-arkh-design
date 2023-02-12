@@ -1,6 +1,6 @@
 body {
     font-family: 'League Spartan', sans-serif;
-    font-weight: 300;    
+    font-weight: 100;    
 }
 
 header {
@@ -163,27 +163,12 @@ footer p {
 
 /* CSS INDEX HEADER*/
 
-@media (max-width: 900px) {
-    .social_header {
-        display: none;
-    }
-
-    .container {
-        display: flex;
-        justify-content: space-around;
-        padding: 0;
-    }
-
-    .container__logo a {
-        margin-left: 20px;
-    }
-}
-
-@media (max-width: 599px) {
+@media (max-width: 992px) {
 
 
     body {
-        font-family: 'Nunito', sans-serif;    
+        font-family: 'League Spartan', sans-serif;
+        font-weight: 100;    
     }
 
     header {
@@ -227,9 +212,14 @@ footer p {
         left: 0;
         background: rgb(81, 0, 128);
         height: 0px;
-        transition: 1s;
+        transition: 0.3s;
         visibility: hidden;
         overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: 10vh;
+        visibility: visible;
     }
 
     #menu li {
@@ -237,22 +227,16 @@ footer p {
     }
 
     #menu li a {
-
+        font-size: 20px;
+        font-weight: 300;
         text-align: center;
         text-decoration: none;
         color: rgb(255, 255, 255);
-        font-weight: bold;
         overflow-y: auto;
     }
 
     #btn-menu {
         display: block;
-    }
-
-    #nav.active #menu {
-        height: 14vh;
-        visibility: visible;
-
     }
 
     .container h1 {
