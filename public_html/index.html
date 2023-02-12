@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="carrossel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Nunito:wght@200&display=swap"
-    rel="stylesheet"><link href='https://css.gg/menu.css' rel='stylesheet'>
-
-    
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href='https://css.gg/menu.css' rel='stylesheet'>    
     <title>Arkh  |  Digital</title>
 
 
@@ -23,7 +21,7 @@
         <div class="container">                         
             <div class="container__logo">   
                 <a href="index.html">
-                    <img src="logo_arkh.png" alt="Logo Arkh" class="logo" > 
+                    <img src="/assets/img/logo_arkh.png" alt="Logo Arkh" class="logo" > 
                     <h1>Arkh<br>Digital</h1>  
                 </a>
             </div>
@@ -40,39 +38,63 @@
             </div>
 
             <div class="social_header">
-                <a href="#"><img src="logo_instagram.png" alt="logo do instagram"></a>
-                <a href="#"><img src="logo_facebook.png" alt="logo do facebook"></a>
-                <a href="#"><img src="logo_linkedin.png" alt="logo do linkedin"></a>
+                <a href="#"><img src="/assets/img/logo_instagram.png" alt="logo do instagram"></a>
+                <a href="#"><img src="/assets/img/logo_facebook.png" alt="logo do facebook"></a>
+                <a href="#"><img src="/assets/img/logo_linkedin.png" alt="logo do linkedin"></a>
             </div>
 
         </div> 
 
     </header>
     <main>
-        <div class="main_first">
-            <section>
-                    
+        <div>
+            <section>                                    
                 <div class="main__frase">
-                    <p>Nós transformamos <br> idéias em realidade.</p>
-                </div>    
-
-            </section>
-
-            <hr id="linha"> 
-
-            <section>
-                <div class="box_slide">
-                    <img src="img_show_1.jpg">
-                    <img src="img_show_2.png">
-                    <img src="img_show_3.jpg">
+                    <h2>Nós transformamos suas idéias em realidade.</h2>
                 </div>
             </section>
 
+            <hr id="linha"> 
+
             <section>
-                <p class="main__frase">Qual é o limite da criatividade?</p>
+                <div class="carousel-container">
+                    <div>
+                        <div class="carousel-slide">
+                            <img id="img-slide" src="/assets/img/img_show_1.jpg" alt="Imagem 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img id="img-slide" src="/assets/img/img_show_2.png" alt="Imagem 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img id="img-slide" src="/assets/img/img_show_3.jpg" alt="Imagem 3">
+                        </div>
+                        <a class="carousel-prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="carousel-next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+
+                    <div class="carousel-text-container">
+                        <p class="carousel-text"> Somos uma equipe apaixonada por criar soluções 
+                        de design que sejam impactantes, inovadoras e eficientes.<br><br>Acreditamos
+                        que o design é a chave para a construção de uma marca forte e coerente,
+                        e estamos comprometidos em ajudar nossos clientes a alcançar seus objetivos
+                        através do design digital..
+                        </p>
+                    </div>
+                
+                </div>
+
+
+                 
+
+            </section>
+
+            <section  class="main__frase">
+                <h3>Qual é o limite da criatividade?</h3>
             </section>
 
             <hr id="linha"> 
+
+
 
         </div>
 
@@ -80,22 +102,23 @@
     </main>
     
     <footer>
-        <h3 class="main__frase">Descubra mais em:</h3>
+        <h4 class="main__frase">Descubra mais em:</h4>
         <section class="container_footer">
             <div class="social">
-                <a href="#"><img src="logo_instagram.png" alt="logo do instagram"></a>
-                <a href="#"><img src="logo_facebook.png" alt="logo do facebook"></a>
-                <a href="#"><img src="logo_linkedin.png" alt="logo do linkedin"></a>     
+                <a href=""><img src="/assets/img/logo_instagram.png" alt="logo do instagram">
+                <a href=""><img src="/assets/img/logo_facebook.png" alt="logo do facebook">
+                <a href=""><img src="/assets/img/logo_linkedin.png" alt="logo do linkedin"></a>     
             </div>
         </section>
         <p>&copy;Arkh Desing 2023 All Rights Reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="carrossel.js"></script>
 
 <div class="video-background">
     <video autoplay loop muted>
-        <source src="background_main.mp4" type="video/mp4">
+        <source src="/assets/img/background_main.mp4" type="video/mp4">
         </video>
 </div>
 
