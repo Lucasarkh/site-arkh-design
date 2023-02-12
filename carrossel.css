@@ -48,13 +48,6 @@
   .carousel-next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
-  
-
-
-  .carousel-text-container {
-    display: block;
-    border-radius: 20px 20px;
-  }
 
   .carousel-text {
     color: white;
@@ -63,5 +56,28 @@
     width: 300px;
     padding-left: 25px;
 
+
+  }
+
+  @media (max-width: 599px) {
+
+    .carousel-slide img {
+      width: 80vw;
+
+    }
+
+    .carousel-text-container {
+      margin-top: 30px;
+  
+    }
+
+    .carousel-text {
+      width: 80vw;
+      height: 100%;
+      font-size: 22px;
+      font-weight: 100;
+      word-break: break-word;
+      padding: 0;
+      text-align: center;
 
   }

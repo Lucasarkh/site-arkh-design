@@ -1,0 +1,506 @@
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 100;  
+}  
+    
+.video-background{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    z-index: -1000;
+    object-fit: cover;
+}
+
+/********************* HEADER *********************/
+
+header {
+    border-bottom: 2px solid pink;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, #450058c5 0%, #aa88ffc5 100%);
+}
+
+.container-logo a {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+.navigation {
+    margin-left: 20px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+#btn-menu {
+    display: none;
+}
+
+#menu li {
+    margin: 20px;
+}
+
+#menu li:hover {
+    background: #A988FF;
+    box-sizing: border-box;
+    padding: 0 10px;
+    border-radius: 15px 15px;
+    transition: 1s;
+}
+
+#menu li a {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    overflow-y: auto;
+    font-weight: 300;
+}
+
+.container h1 {
+    font-size: 20px;
+    color: rgb(255, 205, 243);
+}
+
+.logo {
+    width: 70px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.social-header {
+    display: flex;
+    align-items: center; 
+    margin-right: 40px;  
+}
+
+.social-header img {
+width: 35px;
+margin: 0 20px;
+filter: grayscale(0);
+}
+
+.social-header img:hover {
+    width: 40px;
+    transition: 0.5s;
+}
+
+#linha {
+    margin: 0 auto;
+    border: none;
+    background-color: rgba(253, 253, 253, 0.5);
+    height: 5px;
+    width: 60vw;
+    border-radius: 3px 3px;
+
+}
+
+/********************* MAIN *********************/
+
+.form-data {
+    width: 100vw;
+    display: block;
+    text-align: center;
+}
+
+.form-msg label {
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+.form-data-input label {
+    display: inline-block;
+    width: 20vw;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    color: white;
+    background: #ffffff52;
+    padding: 5px;
+    border-radius: 10px 10px;
+}
+
+input {
+    width: 40vw;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.form-msg label {
+    display: inline-block;
+    width: 20vw;
+    text-align: center;
+    vertical-align: top;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    color: white;
+    background: #ffffff52;
+    padding: 5px;
+    border-radius: 10px 10px;
+}
+
+textarea {
+    width: 40vw;
+    margin-top: 10px;
+}
+
+.form-container {
+    margin-top: 40px;
+    width: 100vw;
+}
+
+.form-check {
+    display: inline-block;
+    width: 100vw;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.form-check-input {
+    display: block;
+    width: 100vw;
+    margin: 20px auto;
+}
+
+.form-check-label { 
+    display: block;
+    width: 40vw;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    background: #ffffff52;
+    padding: 5px;
+    border-radius: 10px 10px;
+
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.btn button {
+    padding: 10px;
+    border-radius: 15px 15px ;
+    border: none;
+    width: 30vw;
+}
+
+h2,
+h3,
+h4 {
+    font-size: 40px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#linha {
+    margin: 0 auto;
+    border: none;
+    background-color: rgba(253, 253, 253, 0.5);
+    height: 5px;
+    width: 60vw;
+    border-radius: 3px 3px;
+}
+
+/********************* FOOTER *********************/
+
+footer {
+
+}
+
+footer p {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.container_footer {
+    width: 30vw;
+    margin: 5px auto;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 255, 255, 0.1);
+    border-radius: 20px 20px;
+    padding-top: 10px;
+    height: 50px;
+    
+}
+
+.social img {
+    box-sizing: border-box;
+    margin: 0 20px;
+    width: 40px;
+
+}
+
+.social a {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+@media (max-width: 992px) {
+    
+ /********************* MOBILE HEADER *********************/
+
+    body {
+        font-family: 'League Spartan', sans-serif;
+    }
+
+    header {
+        background-color: blueviolet;
+        border-bottom: 2px solid pink;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .container {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;       
+        flex-wrap: wrap;
+        background: linear-gradient(90deg, #6E008C 0%, #A988FF 100%);
+    }
+
+    .container-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .container-logo a {
+        margin-left: 20px;
+    }
+
+    #btn-menu {
+        margin-right: 40px;
+    }
+
+    #menu {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        top: 67px;
+        right: 0;
+        left: 0;
+        background: rgb(81, 0, 128);
+        height: 0px;
+        transition: 1s;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #menu li {
+        margin: 20px;
+    }
+
+    #menu li a {
+
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        overflow-y: auto;
+    }
+
+    #btn-menu {
+        display: block;
+    }
+
+    #nav.active #menu {
+        height: 14vh;
+        visibility: visible;
+
+    }
+
+    .container h1 {
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(255, 205, 243);
+    }
+
+    .social-header {
+        display: none;
+    }
+
+    .logo {
+        width: 70px;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+
+
+    #linha {
+        margin: 0 auto;
+        border: none;
+        background-color: rgba(253, 253, 253, 0.5);
+        height: 5px;
+        width: 60vw;
+        border-radius: 3px 3px;
+
+    }
+
+/********************* MOBILE MAIN *********************/
+    
+    main {
+    margin-top: 65px;
+    }
+
+    .form-data {
+        display: block;
+        margin: 0;
+        text-align: center;        
+    }
+
+    label {
+        margin-top: ;
+    }
+
+    .form-data-input label {
+        width: 40vw;
+        text-align: center;
+        font-size: 1.5rem;
+        color: white;
+        margin: 0;
+
+    }
+
+    input {
+        width: 80vw;
+        height: 30px;
+        margin: 10px 0;
+    }
+
+    textarea {
+        display: block;
+        width: 80vw;
+        margin: 10px auto 0 auto;
+
+    }
+
+    .form-msg label {
+        display: inline;
+        margin: 0;
+        text-align: center;
+    }
+
+    .form-container {
+        width: 100vw;
+        display: inline-block;
+        flex-direction: unset;
+        margin-top: 40px;
+        margin:0 auto;
+    }
+
+    .form-check {
+        display: block;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 80vw ;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.15);
+        margin: 10px auto;
+        border-radius: 15px 15px;
+    }
+
+    .form-check-input {
+        display: block;
+        width: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .form-check-label { 
+        display: inline;
+        width: 100vw;  
+        font-size: 20px;
+        color: white;
+        margin: 10px auto 0 auto;
+        background: none;
+    }
+
+    .btn {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .btn button {
+        padding: 10px;
+        border-radius: 15px 15px ;
+        border: none;
+        width: 30vw;
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-size: 40px;
+        color: white;
+        font-weight: 200;
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    #linha {
+        margin: 0 auto;
+        border: none;
+        background-color: rgba(253, 253, 253, 0.5);
+        height: 5px;
+        width: 60vw;
+        border-radius: 3px 3px;
+    }
+
+/********************* MOBILE FOOTER *********************/
+
+    footer p {
+        text-align: center;
+        margin: 10px auto;
+    }
+    
+    .container_footer {
+        width: 80vw;
+        margin: 5px auto;
+    }
+    
+    .social {
+        display: flex;
+        justify-content: center;    
+        background: rgb(255, 255, 255, 0.1);
+        border-radius: 20px 20px;
+        padding: 0;
+    }
+    
+    .social img {
+        box-sizing: border-box;
+        padding: 5px;
+        margin: 0 20px;
+        width: 50px;
+    }
+
+}

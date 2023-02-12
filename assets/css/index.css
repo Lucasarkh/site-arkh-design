@@ -103,7 +103,10 @@ h4 {
     color: white;
     font-weight: 200;
     text-align: center;
+}
 
+h4 {
+    padding: 30px 0;
 }
 
 .video-background{
@@ -121,10 +124,6 @@ h4 {
     justify-content: center;
     align-items: center;   
     margin: 30px auto;   
-
-}
-
-footer {
 
 }
 
@@ -286,29 +285,44 @@ footer p {
 
     /* CSS INDEX MAIN*/
 
+    h2,
+    h3,
+    h4 {
+    font-size: 40px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    }
+
+    h2 {
+        padding-top: 30px;
+    }
+
+    h4 {
+        padding: 20px 0;
+    }
+
     main {
         margin-top: 65px;
     }
 
-    .video-background{
+    .main__frase {
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        margin: 30px auto;  
+    }
+    
+    .video-background {
         position: fixed; 
         top: 0;
         left: 0;
         width: 100vw; 
         height: 100vh; 
         z-index: -1000;
-        object-fit: cover
+        object-fit: cover;
     }
 
-
-    .main__frase {
-        box-sizing: border-box;
-        padding: 20px;    
-        text-align: center;
-        font-size: 25px;
-        color:white;
-        font-family: 'Josefin Sans', sans-serif;
-    }
 
     .box_slide {
         display: flex;
@@ -326,10 +340,6 @@ footer p {
         border: 5px solid rgba(0, 0, 0, 0.150);
     }
 
-    footer {
-
-    }
-
     footer p {
         text-align: center;
         margin: 10px auto;
@@ -343,8 +353,9 @@ footer p {
     .social {
         display: flex;
         justify-content: center;    
-        background: #6e008c71;
+        background: rgb(255, 255, 255, 0.1);
         border-radius: 20px 20px;
+        padding: 0;
     }
 
     .social img {

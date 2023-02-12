@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
-    <link rel="stylesheet" type="text/css" href="carrossel.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/contato.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -19,14 +18,14 @@
 <body>
     <header>
         <div class="container">                         
-            <div class="container__logo">   
+            <div class="container-logo">   
                 <a href="index.html">
                     <img src="/assets/img/logo_arkh.png" alt="Logo Arkh" class="logo" > 
                     <h1>Arkh<br>Digital</h1>  
                 </a>
             </div>
             
-            <div class="navegacao">
+            <div class="navigation">
                 <a id="btn-menu" href="#"><i class="gg-menu"></i></a>
                 <nav id="nav">
                     <ul id="menu">
@@ -37,7 +36,7 @@
                 </nav>
             </div>
 
-            <div class="social_header">
+            <div class="social-header">
                 <a href="https://www.instagram.com/arkhdigital" target="_blank"><img src="/assets/img/logo_instagram.png" alt="logo do instagram"></a>
                 <a href="#"><img src="/assets/img/logo_facebook.png" alt="logo do facebook"></a>
                 <a href="https://www.linkedin.com/in/lucasarkh/" target="_blank"><img src="/assets/img/logo_linkedin.png" alt="logo do linkedin"></a>
@@ -47,22 +46,59 @@
 
     </header>
 
-    <main class="main_historia">
-        <section class="main_historia_section1">
-            <h2 id="texto_section1">A Arkh Digital também já foi uma ideia...</h2>
-            <h3 id="texto_section1">Hoje é uma realidade.</h3>
+    <main>
+        <section>
+
+            <h2>Entre em contato conosco</h2>
+
         </section>
 
-        <p>A arte tem um impacto significativo no mundo digital. Com a popularidade crescente da tecnologia e da internet, a arte tem sido utilizada de maneiras criativas para expressar ideias, emoções e histórias de maneira impactante.
+        <section>
+            <form>
+                <div class="form-data">
+                    <div class="form-data-input">
+                    <label for="nomeCompleto">Nome Completo:</label>
+                    <input type="text" class="form-control" id="nomeCompleto" placeholder="Seu nome completo">
+                    </div>
+                    <div class="form-data-input">
+                    <label for="email">Endereço de email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu email">
+                    </div>
+                    <div class="form-data-input">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="Seu telefone">
+                    </div>
+                    <div class="form-msg">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem" rows="10" placeholder="Sua mensagem aqui"></textarea>
+                    </div>
+                </div>
 
-            A arte digital é uma forma de expressão que combina técnicas tradicionais de arte com tecnologia digital. Isso permite aos artistas criarem obras de arte em formatos digitais, como animações, ilustrações e fotografias digitais. Essas obras de arte são frequentemente compartilhadas em redes sociais e outros canais digitais, permitindo aos artistas alcançarem uma audiência global.
-            
-            A arte também é usada em design de jogos, aplicativos e websites para criar interfaces atraentes e envolventes. A combinação de arte e tecnologia é essencial para a criação de experiências de usuário satisfatórias e atraentes.
-            
-            Além disso, a arte também pode ser usada para explorar questões sociais e políticas importantes, como questões de identidade, igualdade e justiça. A arte digital permite que os artistas apresentem essas questões de maneira acessível e impactante, ajudando a iniciar conversas e mudar opiniões.
-            
-            Em resumo, a arte tem um impacto significativo no mundo digital, permitindo que os artistas expressen suas ideias de maneira criativa, impactante e acessível, e influenciem a forma como as pessoas pensam e se relacionam com a tecnologia.</p>
+                <div class="form-container">
+                    <div class="form-check">
+                        <label class="form-check-label" for="preferenciaEmail">Preferência de contato via email.</label>
+                        <input type="radio" class="form-check-input" id="preferenciaEmail" name="preferenciaContato" value="email">
+                    </div>
 
+                    <div class="form-check">
+                        <label class="form-check-label" for="preferenciaTelefone">Preferência de contato via telefone.</label>
+                        <input type="radio" class="form-check-input" id="preferenciaTelefone" name="preferenciaContato" value="telefone">
+                    </div>
+
+                    <div class="form-check">
+                        <label class="form-check-label" for="preferenciaWhatsApp">Preferência de contato via WhatsApp.</label>
+                        <input type="radio" class="form-check-input" id="preferenciaWhatsApp" name="preferenciaContato" value="whatsapp">
+                    </div>
+                </div>    
+                <div  class="btn">
+                    <button type="submit">Enviar</button>
+                </div>    
+              </form>
+              
+              
+        </section>
+
+    
         <hr>
         
 
