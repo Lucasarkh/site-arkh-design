@@ -14,6 +14,17 @@ body {
     object-fit: cover;
 }
 
+.video-filter {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 1920px; 
+    height: 1080px; 
+    z-index: -999;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 /********************* HEADER *********************/
 
 header {
@@ -231,6 +242,7 @@ footer {
 footer p {
     text-align: center;
     margin: 10px auto;
+    color: white;
 }
 
 .container_footer {
@@ -455,6 +467,10 @@ footer p {
         width: 30vw;
     }
 
+    .main__frase {
+        display: inline-block;
+    }
+
     h2,
     h3,
     h4 {
@@ -465,6 +481,7 @@ footer p {
         padding: 30px 0;
         margin: 0 20px;
     }
+
 
     #linha {
         margin: 0 auto;

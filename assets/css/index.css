@@ -119,6 +119,17 @@ h4 {
     object-fit: cover;
 }
 
+.video-filter {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 1920px; 
+    height: 1080px; 
+    z-index: -999;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .main__frase {
     display: flex;
     justify-content: center;
@@ -130,6 +141,7 @@ h4 {
 footer p {
     text-align: center;
     margin: 10px auto;
+    color:white
 }
 
 .container_footer {
@@ -276,10 +288,7 @@ footer p {
     color: white;
     font-weight: 200;
     text-align: center;
-    }
-
-    h2 {
-        padding-top: 30px;
+    
     }
 
     h4 {
@@ -291,10 +300,10 @@ footer p {
     }
 
     .main__frase {
-        display: flex;
-        justify-content: center;
-        align-items: center;   
-        margin: 30px auto;  
+        display: inline-block;
+        margin: 20px 20px;
+
+
     }
     
     .video-background {
@@ -306,7 +315,7 @@ footer p {
         z-index: -1000;
         object-fit: cover;
     }
-
+    
 
     .box_slide {
         display: flex;
