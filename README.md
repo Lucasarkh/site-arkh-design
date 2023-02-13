@@ -1,2 +1,1 @@
-# site_arkh_design
-Projeto de site de uma empresa de design gráfico construído em HTML, CSS e JAVA SCRIPT.
+Este projeto consiste em criar um site para uma empresa de design digital. Ele é construído utilizando HTML, CSS e JavaScript. O site foi desenvolvido para apresentar ideias e conceitos do mundo da arte digital. Além disso, o site contém imagens de alguns dos trabalhos anteriores da empresa e um formulário para que os clientes possam entrar em contato com a equipe de design. O JavaScript é utilizado para implementar uma funcionalidade dinâmica e tornar a experiência do usuário mais agradável.
