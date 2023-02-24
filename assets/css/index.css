@@ -210,6 +210,7 @@ footer p {
     }
 
     #btn-menu {
+        display: block;
         margin-right: 40px;
     }
 
@@ -245,10 +246,6 @@ footer p {
         text-decoration: none;
         color: rgb(255, 255, 255);
         overflow-y: auto;
-    }
-
-    #btn-menu {
-        display: block;
     }
 
     .container h1 {
